@@ -56,7 +56,7 @@ public class JmsApplication {
 	// Create variables for the connection to MQ
 //	private static final String HOST = "localhost"; // Host name or IP address
 //	private static final int PORT = 1414; // Listener port for your queue manager
-	private static final String CHANNEL = "MEBT.REMOTE.CONN.TLS"; // Channel name
+	private static final String CHANNEL = ""; // Channel name
 	private static final String QMGR = "AEQT"; // Queue manager name
 	private static final String APP_USER = "admin"; // User name that application uses to connect to MQ
 	private static final String APP_PASSWORD = "passw0rd"; // Password that the application uses to connect to MQ
